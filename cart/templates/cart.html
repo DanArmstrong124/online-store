@@ -38,7 +38,7 @@
 </div>
     {% endfor %}
 <div class="row">
-    <a style="margin-left: 50px" href="/" class="btn btn-success" role="button"><span aria-hidden="true"><i class="fa fa-money"></i> Checkout  -  </span>
+    <a style="margin-left: 50px" href="{% url 'checkout' %}" class="btn btn-success" role="button"><span aria-hidden="true"><i class="fa fa-money"></i> Checkout  -  </span>
     <span aria-hidden="true"><i class="fa fa-gbp"></i><strong>{{ total }}</strong></span>
     </a>
 </div>
